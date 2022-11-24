@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include("cabecalho") %>
+  <%- include("menu") %>
+
+  <link rel="stylesheet" href="visualizar.css"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizar Cadastro</title>
+</head>
+<body>
+  <h1>Ficha de cadastro de <%=cadastro.nome%></h1>
+  <div id="dados">
+    <p><strong>Data de nascimento:</strong> <%=cadastro.nascimento%></p>
+    <p><strong>Número de CPF:</strong> <%=cadastro.cpf%></p>
+    <p><strong>Sexo:</strong> <%=cadastro.sexo%></p>
+    <p><strong>Estado Civil:</strong> <%=cadastro.estadoCivil%></p>
+    <p><strong>Número de telefone:</strong> <%=cadastro.telefone%></p>
+    <p><strong>Endereço de e-mail:</strong> <%=cadastro.email%></p>
+    <p><strong>Endereço:</strong> <%=cadastro.endereco%></p>
+  </div>
+</body>
+</html>

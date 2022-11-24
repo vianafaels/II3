@@ -1,0 +1,24 @@
+#menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  #menu a {
+    width: 25%;
+    margin-right: 10px;
+    
+    font-size: 1rem;
+    font-weight: 600;
+    min-height: 36px;
+    border-radius: 6px;
+    padding: 16px 16px;
+    margin-bottom: 1rem;
+    background-color: #5f0070;
+    color: #e1e1e6;
+    border: none;
+    text-decoration: none;
+  }
+  hr {
+    width: 100%;
+    margin-block: 1rem;
+  }
